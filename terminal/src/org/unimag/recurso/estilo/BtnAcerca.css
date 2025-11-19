@@ -1,0 +1,27 @@
+#btn-ayuda {
+    -fx-font-weight: bold;
+    -fx-color-one: #AA0C14;
+    -fx-color-two: #C90E18;
+    -fx-color-three: #F2111C;
+
+    -fx-background-color:
+        linear-gradient(#f2f2f2, -fx-color-one),
+        linear-gradient(#fcfcfc 0%, -fx-color-two 20%, -fx-color-one 100%),
+        linear-gradient(#dddddd 0%, -fx-color-three 50%);
+    -fx-background-radius: 8, 7, 6;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+#btn-ayuda:hover {
+    -fx-color-one: #FF8590;
+    -fx-color-two: #F07D87;
+    -fx-color-three: #DE747D;
+}
+
+#btn-ayuda:pressed{
+    -fx-color-one: #51CEFF;
+    -fx-color-two: #45AFD9;
+    -fx-color-three: #3B96BA;
+}
